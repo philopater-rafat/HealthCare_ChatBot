@@ -1,0 +1,1089 @@
+{"intents": [
+  {
+    "tag": "Greetings",
+    "patterns": [
+        "Hello!",
+        "Hi there!",
+        "Good morning!",
+        "Good afternoon!",
+        "Good evening!",
+        "Hey!",
+        "What’s up?",
+        "How are you?"
+    ],
+    "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What brings you here?",
+        "Good day! How can I help you?",
+        "Hey! How are you doing?",
+        "Hello! Is there something specific you want to talk about?"
+    ]
+  },
+ 
+  {
+    "tag": "Goodbyes",
+    "patterns": [
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Have a great day",
+        "Bye",
+        "Talk to you later",
+        "See you soon"
+    ],
+    "responses": [
+        "Goodbye! Take care and stay healthy!",
+        "See you later! If you need anything, just ask!",
+        "Have a great day! I'm here whenever you need help.",
+        "Take care! Don't hesitate to come back if you have more questions.",
+        "Bye! Wishing you a wonderful day ahead!"
+    ]
+  },
+
+  {
+    "tag": "Thank You",
+    "patterns": [
+        "Thank you!",
+        "Thanks!",
+        "I appreciate it!",
+        "Thanks for your help!",
+        "Thank you very much!"
+    ],
+    "responses": [
+        "You're welcome! I'm here to help!",
+        "No problem! Glad to assist you!",
+        "You're welcome! If you have more questions, feel free to ask!",
+        "Anytime! Let me know if you need anything else."
+    ]
+  },
+
+  {
+    "tag": "Small Talk",
+    "patterns": [
+        "What can you do?",
+        "Tell me a joke.",
+        "What's your favorite color?",
+        "Do you have any hobbies?",
+        "What's the weather like?"
+    ],
+    "responses": [
+        "I can help you with health-related questions and more! What would you like to know?",
+        "I enjoy chatting and helping people! What about you?"
+    ]
+  },
+
+  {
+    "tag": "identity",
+    "patterns": ["What is your name?", "What should I call you?", "Who are you?"],
+    "responses": ["You can call me Chati Health. I'm a Chatbot."]
+  },
+
+  {
+    "tag": "creator",
+    "patterns": ["Who created you?", "Who is your developer?", "Who made you?"],
+    "responses": ["I was developed by ChatBot Team in DEPI Microsoft ML Engineer Track."]
+  },
+
+  {
+    "tag" : "greetings",
+    "patterns" : ["Hello","Hey","Hi","Good Day","Greetings"],
+    "responses" : ["Hello!","Hey","What Can I do for you?"]
+  },
+
+  {
+    "tag" : "Acne",
+    "patterns" : ["blackheads","pimples","face pimples","neck pimples","shoulder pimples"],
+    "responses" : ["According to your symptoms you might have Acne","You have Acne","I suppose you have Acne"]
+  },
+
+  {
+    "tag" : "Attention Deficit Disorder (ADHD)",
+    "patterns" : ["impulsivity","hyperactivity","lack of focus","messy works","restlessness"],
+    "responses" : ["According to your symptoms you might have Attention Deficit Disorder","You have Attention Deficit Disorder","I suppose you have Attention Deficit Disorder"]
+
+  },
+
+  {
+    "tag" : "Allergies",
+    "patterns" : ["sneezing","itchy eyes","coughing","watery eyes","itchy nose"],
+    "responses" : ["According to your symptoms you might have Allergies","You have Allergies","I suppose you have Allergies"]
+  },
+  {
+    "tag" : "Alzheimers",
+    "patterns" : ["forgetful","confusion with time","poor judgement"],
+    "responses" : ["According to your symptoms you might have Alzheimers","You have Alzheimers","I suppose you have Alzheimers"]
+  },
+  {
+  	"tag" : "Ankylosing Spondylitis",
+  	"patterns" : ["loss of appetite","weight loss","difficulty walking","pain in heels","pain in hips","pain in jaw","decreased energy","heart failure","heart block","pain in lower back","stiffness"],
+  	"responses" : ["According to your symptoms you might have Ankylosing Spondylitis","You have Ankylosing Spondylitis","I suppose you have Ankylosing Spondylitis"]
+
+  },
+  {
+  	"tag" : "Anorexia",
+  	"patterns" : ["terrifies of gaining weight","hard to sleep through night","dizziness","hair is falling out","constipation","swollen arms","swollen legs","fainting","underweight"],
+  	"responses" : ["According to your symptoms you might have Anorexia","You have Anorexia","I suppose you have Anorexia"]
+  },
+  {
+  	"tag" : "Anxiety or Panic Disorder",
+  	"patterns" : ["rapid heartbeat","fast heartbeat","sweating","shaking","shortness of breath","fear of death","chest pain","faintness"],
+  	"responses" : ["According to your symptoms you might have Anxiety or Panic Disorder","You have Anxiety or Panic Disorder","I suppose you have Panic Disorder"]
+  },
+  {
+  	"tag" : "Arthritis",
+  	"patterns" : ["lack of movement","sored area","joint pain"],
+  	"responses" : ["According to your symptoms you might have any type of Arthritis","You have any type of Arthritis","I suppose you have any type of Arthritis"]
+  },
+  {
+  	"tag" : "Antitrypsin Deficiency",
+  	"patterns" : ["jaundice","yellow skin","coughing up blood","yellow urine"],
+  	"responses" : ["According to your symptoms you might have Antitrypsin Deficiency","You have Antitrypsin Deficiency","I suppose you have Antitrypsin Deficiency"]
+  },
+  {
+  	"tag" : "Abdominal Migraine",
+  	"patterns" : ["dark shadows under eyes","be pale","have little energy","feeling drowsy","unable to eat"],
+  	"responses" : ["According to your symptoms you might have Abdominal Migraine","You have Abdominal Migraine","I suppose you have Abdominal Migraine"]
+  },
+  {
+  	"tag" : "Amyloidosis",
+  	"patterns" : ["sudden weight loss","feeling of fullness","shortness of breath","tongue swelling","severe fatigue","severe weakness","irregular heartbeat"],
+  	"responses" : ["According to your symptoms you might have Amyloidosis","You have Amyloidosis","I suppose you have Amyloidosis"]
+
+  },
+  {
+  	"tag" : "Abscessed Tooth",
+  	"patterns" : ["trouble swallowing","trouble breathing","bad taste","gum redness","sensitivity","bad odor in mouth"],
+  	"responses" : ["According to your symptoms you might have Abscessed Tooth","You have Abscessed Tooth","I suppose you have Abscessed Tooth"]
+  },
+  {
+  	"tag" : "Amenorrhea",
+  	"patterns" : ["hair loss","change in vision","hair growth on face","pain in pelvic area"],
+  	"responses" : ["According to your symptoms you might have Amenorrhea","You have Amenorrhea","I suppose you have Amenorrhea"]
+  },
+  {
+  	"tag" : "Absence Seizure",
+  	"patterns" : ["sudden stop in motion","lip smacking","eyelid fluttering","finger rubbing"],
+  	"responses" : ["According to your symptoms you might have Absence Seizure","You have Absence Seizure","I suppose you have Absence Seizure"]
+  },
+  {
+  	"tag" : "Sleep Apnea",
+  	"patterns" : ["loud snoring","loud gasping","loud choking","excessive sweating at night"],
+  	"responses" : ["According to your symptoms you might have Sleep Apnea","You have Sleep Apnea","I suppose you have Sleep Apnea"]
+  },
+  {
+  	"tag" : "Achalasia",
+  	"patterns" : ["food coming back up into the throat","nighttime coughing","heart is burning","hurt is belching"],
+  	"responses" : ["According to your symptoms you might have Achalasia","You have Achalasia","I suppose you have Achalasia"]
+  },
+  {
+  	"tag" : "Appendicitis",
+  	"patterns" : ["pain in lower belly","pain near navel","belly pain and vomiting","swollen belly","severe cramps","difficulty in peeing","constipation with gas"],
+  	"responses" : ["According to your symptoms you might have Appendicitis","You have Appendicitis","I suppose you have Appendicitis"]
+  },
+  {
+  	"tag" : "Aparaxia of Speech",
+  	"patterns" : ["unable to form proper words","unable to say complex words","speech inconsistencies","distortion in vowel sounds"],
+  	"responses" : ["According to your symptoms you might have Aparaxia of Speech","You have Aparaxia of Speech","I suppose you have Aparaxia of Speech"]
+  },
+  {
+    "tag" : "Arachnoiditis",
+    "patterns" : ["weakness in the legs","numbness in legs","ringing in ears","bladder problems"],
+    "responses" : ["According to your symptoms you are suffering from Arachnoiditis","You have Arachnoiditis","I suppose you have Arachnoiditis"]
+  },
+  {
+    "tag" : "Acute Respiratory Distress Syndrome (ARDS)",
+    "patterns" : ["shortness of breath","low blood pressure","fast breathing","fast heartbeat","exhaustion","blue tinted lips","blue tinted nails"],
+    "responses" : ["According to your symptoms you are suffering from Acute Respiratory Distress Syndrome (ARDS)","You have Acute Respiratory Distress Syndrome (ARDS)","I suppose you have Acute Respiratory Distress Syndrome (ARDS)"]
+  },
+  {
+    "tag" : "Anemia",
+    "patterns" : ["fatigue","weakness","pale skin","yellowish skin","shortness of breath","cold hands","cold feet"],
+    "responses" : ["According to your symptoms you are suffering from Anemia","You have Anemia","I suppose you have Anemia"]
+  },
+  {
+    "tag" : "Arrhythmia",
+    "patterns" : ["palpitations","chest pounding","breath shortness","blurry vision","anxiety"],
+    "responses" : ["According to your symptoms you might have Arrhythmia","You have Arrhythmia","I suppose you have Arrhythmia"]
+  },
+  {
+    "tag" : "Asthma",
+    "patterns" : ["coughing at night","wheezing","chest pain","frequent cough","feeling tired","easily upset","trouble in sleeping","pale face","sweaty face"],
+    "responses" : ["According to your symptoms you might have Asthma","You have Asthma","I suppose you have Asthma"]
+  },
+  {
+    "tag" : "Autism",
+    "patterns" : ["delayed language","delayed learning","delayed movement","unusual mood","unusual eating habits","unusual sleeping habits","no facial expression"],
+    "responses" : ["According to your symptoms you might have Autism","You have Autism","I suppose you have Autism"]
+  },
+  {
+    "tag" : "Blepharitis",
+    "patterns" : ["feels like something in the eye","a burning feeling in the eye","blurry vision","sensitivity to light","dry eyes","red eyes","watery eyes"],
+    "responses" : ["According to your symptoms you might have Blepharitis","You have Blepharitis","I suppose you have Blepharitis"]
+  },
+  {
+    "tag" : "Bacterial Arthritis",
+    "patterns" : ["having chills","unable to move the limb with the infected joint","Severe pain in the affected joint"],
+    "responses" : ["According to your symptoms you might have Bacterial Arthritis","You have Bacterial Arthritis","I suppose you have Backterial Arthritis"]
+  },
+  {
+    "tag" : "Bacterial Meningitis",
+    "patterns" : ["feeling confused","numbness in my face","neck is stiff","hard time concentrating","seizures","lack of appetite"],
+    "responses" : ["According to your symptoms you might have Bacterial Meningitis","You have Meningitis","I suppose you have Meningitis"]
+  },
+  {
+    "tag" : "Benign Prostate Enlargement(BPE)",
+    "patterns" : ["makes it difficult o urinate","need to urinate frequently","wake up frequently in the night to urinate","difficulty in passing urine"],
+    "responses" : ["According to your symptoms you might have Benign Prostate Enlargement Disease","You have Benign Prostate Enlargement Disease","I suppose you have Benign Prostate Enlargement Disease"]
+  },
+  {
+    "tag" : "Bipolar Disorder",
+    "patterns" : ["feeling depressed","lacking energy","loss of interest","feeling worthless","being pessimistic about everything","being delusional","suicidal thoughts","feeling full of energy","easily irritated"],
+    "responses" : ["According to your symptoms you might have Bipolar Disorder Disease","You have Bipolar Disorder Disease","I suppose you have Bipolar Disorder Disease"]
+  },
+  {
+  	"tag" : "Bronchiectasis",
+  	"patterns" : ["persistent cough with large amount of phlegm","coughing up blood","coughing up blood-stained phlegm"],
+  	"responses" : ["According to your symptoms you might have Bronchiectasis Disease","You have Bronchiectasis Disease","I suppose you have Bronchiectasis Disease"]
+
+  },
+  {
+  	"tag" : "Bronchitis",
+  	"patterns" : ["blocked nose","runny or blocked nose","tiredness","cough with phlegm","cough with yellow gray phlegm"],
+  	"responses" : ["According to your symptoms you might have Bronchitis Disease","You have Bronchitis Disease","I suppose you have Bronchitis Disease"]
+  },
+  {
+  	"tag" : "Bulimia",
+  	"patterns" : ["over eating","think about food all time","overeats","focus in body image"],
+  	"responses" : ["According to your symptoms you might have Bulimia Disease","You have Bulimia Disease","I suppose you have Bulimia Disease"]
+  },
+  {
+  	"tag" : "Catarrh",
+  	"patterns" : ["constantly need to clear throat","blocked or stuffy nose can't clear","throat blocked","reduced sense of smell","reduced sense of taste","temporary hearing loss"],
+  	"responses" : ["According to your symptoms you might have Catarrh Disease","You have Catarrh Disease","I suppose you have Catarrh Disease"]
+  },
+  {
+  	"tag" : "Cellulitis",
+  	"patterns" : ["red skin","hot skin","swollen skin","tender skin"],
+  	"responses" : ["According to your symptoms you might have Cellulitis Disease","You have Cellulitis Disease","I suppose you have Cellulitis Disease"]
+  },
+  {
+  	"tag" : "Chest Infection",
+  	"patterns" : ["rapid heart beat","chest tightness","feeling confused"],
+  	"responses" : ["According to your symptoms you might have Chest Infection","You have Chest Infection","I suppose you have Chest Infection"]
+  },
+  {
+    "tag" : "Chest Pain",
+    "patterns" : ["chest feels heavy","chest feels tight","pain in chest and arms back and jaw","breathlessness"],
+    "responses" : ["According to your symptoms you might have Chest Pain","You have Chest Pain","I suppose you have Chest Pain"]
+  },
+  {
+    "tag" : "Chronic Fatigue Syndrome",
+    "patterns" : ["sleep disturbance","poor temperature control","dizziness","hyper sensitive to light","hyper sensitive to sound","speech problem","language problem","problem with concentration","problem with thinking"],
+    "responses" : ["According to your symptoms you might have Chronic Fatigue Syndrome","You have Chronic Fatigue Syndrome","I suppose you have Chronic Fatigue Syndrome"]
+  },
+  {
+    "tag" : "Common Cold",
+    "patterns" : ["sore throat","sneezing","coughing","hoarse voice","headache","ear ache","blocked nose","runny nose"],
+    "responses" : ["According to your symptoms you might have Common Cold","You have Common Cold","I suppose you have Common Cold"]
+  },
+  {
+    "tag" : "Conjunctivitis",
+    "patterns" : ["eye redness","burning sensation in eyes","sticky coating on eye lashes","disturbed vision","intense red in eyes"],
+    "responses" : ["According to your symptoms you might have Conjunctivitis","You have Conjunctivitis","I suppose you have Conjunctivitis"]
+  },
+  {
+    "tag" : "Dehydration",
+    "patterns" : ["light-headedness","tiredness","dry mouth","dry lips","infrequent urine"],
+    "responses" : ["According to your symptoms you might have Dehydration","You have Dehydration","I suppose you have Dehydration"]
+  },
+  {
+    "tag" : "Dental Abscess",
+    "patterns" : ["intense pain in tooth","intense pain in gum","tooth pain spreads to ear jaw and neck","tender tooth","discoloured tooth","bad breath","sensitive to hot and cold"],
+    "responses" : ["According to your symptoms you might have Dental Abscess","You have Dental Abscess","I suppose you have Dental Abscess"]
+  },
+  {
+    "tag" : "Depression",
+    "patterns" : ["continuous sadness","mood off","losing interest in things","losing motivation","feeling anxious","feeling guilty","feeling helpless","feeling hopeless","low self esteem","speaking slower than usual","feeling worried"],
+    "responses" : ["According to your symptoms you might have Depression","You have Depression","I suppose you have Depression"]
+  },
+  {
+    "tag" : "Diabetes",
+    "patterns" : ["feeling very thirsty","loss of muscle bulk","feeling very tired","wounds heal slowly"],
+    "responses" : ["According to your symptoms you might have Diabetes","You have Diabetes","I suppose you have Diabetes"]
+  },
+  {
+    "tag" : "Diarrhoea",
+    "patterns" : ["stomach cramps","pale skin","cold hands","cold feet","feeling drowsy","rapid heartbeat"],
+    "responses" : ["According to your symptoms you might have Diarrhoea","You have Diarrhoea","I suppose you have Diarrhoea"]
+  },
+  {
+    "tag" : "Dystonia",
+    "patterns" : ["muscle spasms","abnormal posture","twisted posture","foot turning inwards","body parts jerking rapidly"],
+    "responses" : ["According to your symptoms you might have Dystonia","You have Dystonia","I suppose you have Dystonia"]
+  },
+  {
+    "tag" : "Epilepsy",
+    "patterns" : ["experienced the events before","unusual smell or taste","tingling sensation in arms and legs","sudden feeling of fear or joy"],
+    "responses" : ["According to your symptoms you might have Epilepsy","You have Epilepsy","I suppose you have Epilepsy"]
+  },
+  {
+    "tag" : "Escherichia Coli",
+    "patterns" : ["diarrhoea","stomach cramps","occasionally fever"],
+    "responses" : ["According to your symptoms you might have Escherichia Coli","You have Escherichia Coli","I suppose you have Escherichia Coli"]
+  },
+  {
+    "tag" : "Flu",
+    "patterns" : ["sudden fever","dry cough","chesty cough","chills","aching muscles","sore throat"],
+    "responses" : ["According to your symptoms you might have Flu","You have Flu","I suppose you have Flu"]
+  },
+  {
+    "tag" : "Fetal alcohol spectrum disorder",
+    "patterns" : ["hyperactivity","impulsivity","sensory difficulties","attention deficiency"],
+    "responses" : ["According to your symptoms you might have Fetal alcohol spectrum disorder","You have Fetal alcohol spectrum disorder","I suppose you have Fetal alcohol spectrum disorder"]
+  },
+  {
+    "tag" : "Food poisoning",
+    "patterns" : ["nausea","diarrhoea","abdominal pain","chills","aching muscles","fever","stomach cramps","vomiting"],
+    "responses" : ["According to your symptoms you might have Food poisoning","You have Food poisoning","I suppose you have Food poisoning"]
+  },
+  {
+    "tag" : "Fungal nail infection",
+    "patterns" : ["discolouration of the nail","brittle nails","crumbly nails","distorted nails"],
+    "responses" : ["According to your symptoms you might have Fungal nail infection","You have Fungal nail infection","I suppose you have Fungal nail infection"]
+  },
+  {
+    "tag" : "Gallbladder cancer",
+    "patterns" : ["abdominal pain","stomach pain","jaundice","loss of appetite","swollen stomach","weight loss"],
+    "responses" : ["According to your symptoms you might have Gallbladder cancer","You have Gallbladder cancer","I suppose you have Gallbladder cancer"]
+  },
+  {
+    "tag" : "Gallstones",
+    "patterns" : ["jaundice","persistent abdominal pain","fever"],
+    "responses" : ["According to your symptoms you might have Gallstones","You have Gallstones","I suppose you have Gallstones"]
+  },
+  {
+    "tag" : "Ganglion cyst",
+    "patterns" : ["joint pain","cysts in wrist","swelling"],
+    "responses" : ["According to your symptoms you might have Ganglion cyst","You have Ganglion cyst","I suppose you have Ganglion cyst"]
+  },
+  {
+    "tag" : "Gastroenteritis",
+    "patterns" : ["diarrhoea","vomiting","mild fever","aching limbs","headache","upset stomach","loss of appetite"],
+    "responses" : ["According to your symptoms you might have Gastroenteritis","You have Gastroenteritis","I suppose you have Gastroenteritis"]
+  },
+  {
+    "tag" : "Gastro-oesophageal reflux disease (GORD)",
+    "patterns" : ["heartburn","bad breath","belching","acid reflux","pain when swallowing"],
+    "responses" : ["According to your symptoms you might have Gastro-oesophageal reflux disease (GORD)","You have Gastro-oesophageal reflux disease (GORD)","I suppose you have Gastro-oesophageal reflux disease (GORD)"]
+  },
+  {
+    "tag" : "Genital herpes",
+    "patterns" : ["pain peeing","genital pain","swelling in groin","blisters","vaginal discharge","rectal pain"],
+    "responses" : ["According to your symptoms you might have Genital herpes","You have Genital herpes","I suppose you have Genital herpes"]
+  },
+  {
+    "tag" : "Genital warts",
+    "patterns" : ["lumps around genitals","warts","vaginal outgrowth","lumps around penis"],
+    "responses" : ["According to your symptoms you might have Genital warts","You have Genital warts","I suppose you have Genital warts"]
+  },
+  {
+    "tag" : "Germ cell tumours",
+    "patterns" : ["lump","olk-sac tumours"],
+    "responses" : ["According to your symptoms you might have Germ cell tumours","You have Germ cell tumours","I suppose you have Germ cell tumours"]
+  },
+  {
+    "tag" : "Glandular fever",
+    "patterns" : ["fever","swollen glands","sore throat","fatigue","extreme tiredness"],
+    "responses" : ["According to your symptoms you might have Glandular fever","You have Glandular fever","I suppose you have Glandular fever"]
+  },
+  {
+    "tag" : "Gonorrhoea",
+    "patterns" : ["pain while urinating","pain in lower abdomen","bleeding after sex","swelling of the testicles","yellow fluid discharge","increased vaginal discharge"],
+    "responses" : ["According to your symptoms you might have Gonorrhoea","You have Gonorrhoea","I suppose you have Gonorrhoea"]
+  },
+  {
+    "tag" : "Gout",
+    "patterns" : ["joint pain","shiny skin over joints","swelling of joints","tender joints"],
+    "responses" : ["According to your symptoms you might have Gout","You have Gout","I suppose you have Gout"]
+  },
+  {
+    "tag" : "Gum disease",
+    "patterns" : ["bad breath","bleeding in gums","swelling in gums","sore gums","bleeding while brushing"],
+    "responses" : ["According to your symptoms you might have Gum disease","You have Gum disease","I suppose you have Gum disease"]
+  },
+  {
+    "tag" : "Haemorrhoids (piles)",
+    "patterns" : ["mucus discharge after passing a stool","itchy bottom","bleeding after defecating","soreness in anus","swelling around anus","redness around anus"],
+    "responses" : ["According to your symptoms you might have Haemorrhoids (piles)","You have Haemorrhoids (piles)","I suppose you have Haemorrhoids (piles)"]
+  },
+  {
+    "tag" : "Hand, foot and mouth disease",
+    "patterns" : ["coughing","sore throat","sore mouth","loss of appetite","fever","abdominal pain","mouth ulcers","blisters","spotty rash"],
+    "responses" : ["According to your symptoms you might have Hand, foot and mouth disease","You have Hand, foot and mouth disease","I suppose you have Hand, foot and mouth disease"]
+  },
+  {
+    "tag" : "Hay fever",
+    "patterns" : ["sneezing","itchy eyes","runny nose"],
+    "responses" : ["According to your symptoms you might have Hay fever","You have Hay fever","I suppose you have Hay fever"]
+  },
+  {
+    "tag" : "Head and neck cancer",
+    "patterns" : ["persistent mouth ulcers","lump in mouth","persistent hoarseness","a persistent cough","lump or swelling in neck","shortness of breath","noisy breathing","difficulty or pain when swallowing","numbness in face","drooping on one side of face","nosebleeds","a persistent blocked nose","decreased sense of smell","hearing loss"],
+    "responses" : ["According to your symptoms you might have Head and neck cancer","You have Head and neck cancer","I suppose you have Head and neck cancer"]
+  },
+  {
+    "tag" : "Head lice and nits",
+    "patterns" : ["itchy scalp","rash on the back of the neck","small white eggs or nits in the hair"],
+    "responses" : ["According to your symptoms you might have Head lice and nits","You have Head lice and nits","I suppose you have Head lice and nits"]
+  },
+  {
+    "tag" : "Headaches",
+    "patterns" : ["stress","dehydration","nausea","vomiting","ncreased sensitivity to light or sound","watering or red eye","blocked or runny nose"],
+    "responses" : ["According to your symptoms you might have Headaches","You have Headaches","I suppose you have Headaches"]
+  },
+  {
+    "tag" : "Hearing loss",
+    "patterns" : ["difficulty hearing","misunderstanding other people","asking people to repeat themselves"],
+    "responses" : ["According to your symptoms you might have Hearing loss","You have Hearing loss","I suppose you have Hearing loss"]
+  },
+  {
+    "tag" : "Heart failure",
+    "patterns" : ["breathlessness","tiredness and lethargy","leg swelling","loss of appetite"],
+    "responses" : ["According to your symptoms you might have Heart failure","You have Heart failure","I suppose you have Heart failure"]
+  },
+  {
+    "tag" : "Hepatitis A",
+    "patterns" : ["joint and muscle pain","fever","loss of appetite","itchy skin","dark urine","pale stools","jaundice","tiredness"],
+    "responses" : ["According to your symptoms you might have Hepatitis A","You have Hepatitis A","I suppose you have Hepatitis A"]
+  },
+  {
+    "tag" : "Hepatitis B",
+    "patterns" : ["loss of appetite","diarrhoea","abdominal pain","tiredness","fever","flu"],
+    "responses" : ["According to your symptoms you might have Hepatitis B","You have Hepatitis B","I suppose you have Hepatitis B"]
+  },
+  {
+    "tag" : "Hepatitis C",
+    "patterns" : ["tiredness","flu","loss of appetite","abdominal pain","muscle ache","fever"],
+    "responses" : ["According to your symptoms you might have Hepatitis C","You have Hepatitis C","I suppose you have Hepatitis C"]
+  },
+  {
+    "tag" : "Hiatus hernia",
+    "patterns" : ["weak diaphragm","pressure on abdomen","leaking stomach acid","scarring on stomach"],
+    "responses" : ["According to your symptoms you might have Hiatus hernia","You have Hiatus hernia","I suppose you have Hiatus hernia"]
+  },
+  {
+    "tag" : "High cholesterol",
+    "patterns" : ["overweight","high blood pressure","diabetes","stroke","heart attack"],
+    "responses" : ["According to your symptoms you might have High cholesterol","You have High cholesterol","I suppose you have High cholesterol"]
+  },
+  {
+    "tag" : "HIV",
+    "patterns" : ["fever","swollen glands","rash","upset stomach","headache","muscle pain","joint pain"],
+    "responses" : ["According to your symptoms you might have HIV","You have HIV","I suppose you have HIV"]
+  },
+  {
+    "tag" : "Huntington's disease",
+    "patterns" : ["problem in movement","problem in cognition","mood swings","personality changes","irritability",""],
+    "responses" : ["According to your symptoms you might have Huntington's disease","You have Huntington's disease","I suppose you have Huntington's disease","fidgety movements"]
+  },
+  {
+    "tag" : "Hyperglycaemia (high blood sugar)",
+    "patterns" : ["increased thirst","dry mouth","tiredness","blurred vision","unintentional weight loss","skin infection","thrush","recurrent infections","bladder infections","frequent urge to urinate"],
+    "responses" : ["According to your symptoms you might have Hyperglycaemia (high blood sugar)","You have Hyperglycaemia (high blood sugar)","I suppose you have Hyperglycaemia (high blood sugar)"]
+  },
+  {
+    "tag" : "Hyperhidrosis",
+    "patterns" : ["excessive sweating","socially withdrawn","swelling in armpits","swelling in palms","swelling in groin","swelling in soles","swelling in face and chest"],
+    "responses" : ["According to your symptoms you might have Hyperhidrosis","You have Hyperhidrosis","I suppose you have Hyperhidrosis"]
+  },
+  {
+    "tag" : "Hypoglycaemia (low blood sugar)",
+    "patterns" : ["hunger","trembling","shakiness","sweating","difficulty concentrating","disturbed sleep","confused upon waking"],
+    "responses" : ["According to your symptoms you might have Hypoglycaemia (low blood sugar)","You have Hypoglycaemia (low blood sugar)","I suppose you have Hypoglycaemia (low blood sugar)"]
+  },
+  {
+    "tag" : "Idiopathic pulmonary fibrosis",
+    "patterns" : ["shortness of breath","tiredness","persistent dry cough","loss of appetite","loss of weight","swollen fingertips","clubbed fingers"],
+    "responses" : ["According to your symptoms you might have Idiopathic pulmonary fibrosis","You have Idiopathic pulmonary fibrosis","I suppose you have Idiopathic pulmonary fibrosis"]
+  },
+  {
+    "tag" : "Impetigo",
+    "patterns" : ["red sores around nose","fever"," swollen glands","blisters"],
+    "responses" : ["According to your symptoms you might have Impetigo","You have Impetigo","I suppose you have Impetigo"]
+  },
+  {
+    "tag" : "Indigestion",
+    "patterns" : ["bloatedness","belching","regurgitation","nausea","feeling full"],
+    "responses" : ["According to your symptoms you might have Indigestion","You have Indigestion","I suppose you have Indigestion"]
+  },
+  {
+    "tag" : "Ingrown toenail",
+    "patterns" : ["inflammation in toe","yellow pus from toe","oedema","curling of nail"],
+    "responses" : ["According to your symptoms you might have Ingrown toenail","You have Ingrown toenail","I suppose you have Ingrown toenail"]
+  },
+  {
+    "tag" : "Inherited heart conditions",
+    "patterns" : ["palpitations","fainting","blackouts"],
+    "responses" : ["According to your symptoms you might have Inherited heart conditions","You have Inherited heart conditions","I suppose you have Inherited heart conditions"]
+  },
+  {
+    "tag" : "Insomnia",
+    "patterns" : ["difficulty in sleeping","awake for long periods","not feeling refreshed after waking","difficulty napping","difficulty concentrating","irritable"],
+    "responses" : ["According to your symptoms you might have Insomnia","You have Insomnia","I suppose you have Insomnia"]
+  },
+  {
+    "tag" : "Iron deficiency anaemia",
+    "patterns" : ["tiredness","lethargy","lack of energy","shortness of breath","pale complexion","heart palpitations","headache","feeling itchy","difficulty swallowing","abnormally smooth tongue","hair loss"],
+    "responses" : ["According to your symptoms you might have Iron deficiency anaemia","You have Iron deficiency anaemia","I suppose you have Iron deficiency anaemia"]
+  },
+  {
+    "tag" : "Irritable bowel syndrome (IBS)",
+    "patterns" : ["abdominal pain","diarrhoea","constipation","bloating","excessive flatulence","lethargy","heartburn","cramping"],
+    "responses" : ["According to your symptoms you might have Irritable bowel syndrome (IBS)","You have Irritable bowel syndrome (IBS)","I suppose you have Irritable bowel syndrome (IBS)"]
+  },
+  {
+    "tag" : "Irritable hip",
+    "patterns" : ["slightly higher temperature","pain in the knee","thigh pain","estricted movement in hip joints","limping","hip pain"],
+    "responses" : ["According to your symptoms you might have Irritable hip","You have Irritable hip","I suppose you have Irritable hip"]
+  },
+  {
+    "tag" : "Itching",
+    "patterns" : ["Redness","leathery or scaly patches","scratch marks","blisters","cracked skin","itchy skin","itchness all over body","dry skin","persistent itch"],
+    "responses" : ["According to your symptoms you might have Itching","You have Itching","I suppose you have Itching"]
+  },
+  {
+    "tag" : "Itchy bottom",
+    "patterns" : ["persistent anal itch","anal bleeding","stool leakage","severe rectal itch","itchness in  bottom"],
+    "responses" : ["According to your symptoms you might have Itchy bottom","You have Itchy bottom","I suppose you have Itchy bottom"]
+  },
+  {
+    "tag" : "Kaposi's sarcoma",
+    "patterns" : ["uncomfortable swelling","nausea","vomiting","","coughing up blood","chest pain","stomach pain"],
+    "responses" : ["According to your symptoms you might have Kaposi's sarcoma","You have Kaposi's sarcoma","I suppose you have Kaposi's sarcoma"]
+  },
+  {
+    "tag" : "Kidney infection",
+    "patterns" : ["pus in kidney","shivering","pain in the back","painful urination","fever"],
+    "responses" : ["According to your symptoms you might have Kidney infection","You have Kidney infection","I suppose you have Kidney infection"]
+  },
+  {
+    "tag" : "Kidney stones",
+    "patterns" : ["persistent ache in lower back","periods of intense pain","nausea","pain while urination","blood in urine","gfrequent urge to urinate","restlessness"],
+    "responses" : ["According to your symptoms you might have Kidney stones","You have Kidney stones","I suppose you have Kidney stones"]
+  },
+  {
+    "tag": "Diabetes",
+    "patterns": ["frequent urination", "excessive thirst", "unexplained weight loss", "fatigue", "blurry vision", "slow healing wounds"],
+    "responses": ["Your symptoms suggest you might have diabetes.", "It seems like you could be experiencing diabetes symptoms.", "I recommend seeing a doctor for potential diabetes symptoms."]
+  },
+  {
+    "tag": "Hypertension",
+    "patterns": ["headache", "dizziness", "blurred vision", "shortness of breath", "chest pain", "nosebleeds"],
+    "responses": ["These symptoms could indicate high blood pressure or hypertension.", "You might be experiencing hypertension. Please consult a healthcare professional.", "Your symptoms suggest hypertension, consider monitoring your blood pressure."]
+  },
+  {
+    "tag": "Common Cold",
+    "patterns": ["sneezing", "runny nose", "sore throat", "cough", "congestion", "mild fever"],
+    "responses": ["It seems like you might have a common cold.", "Your symptoms suggest a common cold.", "You could be experiencing a cold. Rest and stay hydrated."]
+  },
+  {
+    "tag": "Migraine",
+    "patterns": ["throbbing headache", "sensitivity to light", "nausea", "vomiting", "aura before headache", "pulsating pain"],
+    "responses": ["You might be experiencing a migraine based on these symptoms.", "It seems like a migraine. Consider taking a rest in a quiet, dark room.", "Your symptoms are common in migraines."]
+  },
+  {
+    "tag": "Asthma",
+    "patterns": ["shortness of breath", "wheezing", "chest tightness", "coughing at night", "difficulty breathing", "coughing after exercise"],
+    "responses": ["These symptoms could indicate asthma. Please consult a healthcare provider.", "It looks like asthma. Make sure to have your inhaler handy.", "You might have asthma. It’s best to consult a doctor."]
+  },
+  {
+    "tag": "Gastroenteritis",
+    "patterns": ["diarrhea", "vomiting", "stomach cramps", "nausea", "fever", "loss of appetite"],
+    "responses": ["Your symptoms suggest gastroenteritis.", "It seems like you could be experiencing gastroenteritis.", "You might have a stomach infection like gastroenteritis."]
+  },
+  {
+    "tag": "Anemia",
+    "patterns": ["fatigue", "pale skin", "weakness", "shortness of breath", "dizziness", "cold hands and feet", "irregular heartbeats"],
+    "responses": ["Your symptoms might be related to anemia. Consider checking your iron levels.", "It seems like anemia. You should consult a healthcare professional.", "These symptoms suggest anemia. Please see a doctor for a diagnosis."]
+  },
+  {
+    "tag": "Allergy",
+    "patterns": ["sneezing", "itchy eyes", "runny nose", "skin rash", "swelling", "hives", "shortness of breath"],
+    "responses": ["It seems like you might be having an allergic reaction.", "Your symptoms suggest an allergy. Consider taking an antihistamine.", "You could be experiencing an allergy. Please avoid any known allergens."]
+  },
+  {
+    "tag": "Urinary Tract Infection",
+    "patterns": ["painful urination", "frequent urge to urinate", "cloudy urine", "strong-smelling urine", "pelvic pain", "fever"],
+    "responses": ["Your symptoms could be related to a urinary tract infection (UTI).", "It seems like you might have a UTI. Please see a healthcare provider.", "These symptoms suggest a UTI. Consider drinking plenty of water and seeing a doctor."]
+  },
+  {
+    "tag": "Flu",
+    "patterns": ["high fever", "chills", "body aches", "fatigue", "dry cough", "sore throat", "congestion"],
+    "responses": ["It seems like you have the flu. Rest and hydration are recommended.", "Your symptoms suggest the flu. Please take care and consult a doctor if needed.", "It looks like the flu. Consider staying home and resting."]
+  },
+  {
+    "tag": "Bronchitis",
+    "patterns": ["persistent cough", "mucus production", "chest discomfort", "fatigue", "shortness of breath", "wheezing"],
+    "responses": ["You might have bronchitis. Consider consulting a healthcare provider.", "It seems like bronchitis. Rest and stay hydrated.", "Your symptoms suggest bronchitis. Please see a doctor if symptoms worsen."]
+  },
+  {
+    "tag": "Depression",
+    "patterns": ["persistent sadness", "loss of interest", "fatigue", "changes in appetite", "difficulty concentrating", "feeling hopeless"],
+    "responses": ["It sounds like you might be experiencing depression. Please consider seeking support from a mental health professional.", "Your symptoms suggest depression. It’s important to talk to someone you trust.", "You might be going through depression. Professional help can make a difference."]
+  },
+  {
+    "tag": "Anxiety",
+    "patterns": ["excessive worry", "restlessness", "difficulty sleeping", "racing thoughts", "rapid heartbeat", "difficulty concentrating"],
+    "responses": ["It seems like you might be experiencing anxiety. Consider practicing relaxation techniques or consulting a professional.", "Your symptoms suggest anxiety. It’s okay to seek help and talk about it.", "You might be experiencing anxiety. Professional support can be helpful."]
+  },
+  {
+    "tag": "Hypothyroidism",
+    "patterns": ["fatigue", "weight gain", "cold intolerance", "constipation", "dry skin", "hair loss", "depression"],
+    "responses": ["Your symptoms might indicate hypothyroidism. Please consult an endocrinologist.", "It seems like hypothyroidism. A healthcare provider can help manage this condition.", "These symptoms suggest hypothyroidism. Consider checking your thyroid function."]
+  },
+  {
+    "tag": "Hyperthyroidism",
+    "patterns": ["weight loss", "rapid heartbeat", "nervousness", "sweating", "increased appetite", "tremors", "fatigue"],
+    "responses": ["Your symptoms could indicate hyperthyroidism. Please consult a healthcare provider.", "It seems like hyperthyroidism. You should see an endocrinologist.", "These symptoms suggest hyperthyroidism. Please seek medical advice."]
+  },
+  {
+    "tag": "Sinusitis",
+    "patterns": ["facial pain", "nasal congestion", "headache", "postnasal drip", "sore throat", "fever", "fatigue"],
+    "responses": ["It seems like you might have sinusitis. Rest and hydration can help.", "Your symptoms suggest sinusitis. Consider consulting a healthcare provider.", "It looks like sinusitis. Steam inhalation and nasal decongestants might help."]
+  },
+  {
+    "tag": "Pneumonia",
+    "patterns": ["chest pain", "cough with phlegm", "fever", "chills", "difficulty breathing", "fatigue"],
+    "responses": ["Your symptoms could indicate pneumonia. Please see a doctor immediately.", "It seems like pneumonia. Seek medical attention promptly.", "These symptoms suggest pneumonia. Consider getting a chest X-ray and consulting a healthcare provider."]
+  },
+  {
+    "tag": "Irritable Bowel Syndrome",
+    "patterns": ["abdominal pain", "bloating", "diarrhea", "constipation", "cramping", "gas"],
+    "responses": ["Your symptoms suggest Irritable Bowel Syndrome (IBS). Consider consulting a gastroenterologist.", "It looks like IBS. Dietary changes and stress management might help.", "You might have IBS. A healthcare provider can help with management."]
+  },
+  {
+    "tag": "Osteoarthritis",
+    "patterns": ["joint pain", "stiffness", "reduced range of motion", "swelling in joints", "creaking sound in joints", "pain during movement"],
+    "responses": ["Your symptoms suggest osteoarthritis. Please consult a healthcare provider for management options.", "It seems like osteoarthritis. Physical therapy and medications might help.", "These symptoms could indicate osteoarthritis. Please seek medical advice."]
+  },
+  {
+    "tag": "Gastric Ulcer",
+    "patterns": ["burning stomach pain", "bloating", "heartburn", "nausea", "vomiting", "loss of appetite", "weight loss"],
+    "responses": ["Your symptoms might indicate a gastric ulcer. Please see a gastroenterologist.", "It seems like a gastric ulcer. Avoiding spicy foods and consulting a doctor is recommended.", "These symptoms suggest a gastric ulcer. Medical treatment can help."]
+  },
+  {
+    "tag": "Heart Attack",
+    "patterns": ["chest pain", "shortness of breath", "pain in the left arm", "nausea", "sweating", "dizziness", "lightheadedness"],
+    "responses": ["These symptoms could indicate a heart attack. Please seek emergency medical care immediately.", "It seems like a heart attack. Call emergency services right away.", "Your symptoms suggest a heart attack. Seek medical attention immediately."]
+  },
+  {
+    "tag": "Stroke",
+    "patterns": ["sudden numbness", "weakness in the face or limbs", "confusion", "trouble speaking", "blurred vision", "loss of balance", "severe headache"],
+    "responses": ["Your symptoms might indicate a stroke. Please seek emergency medical care immediately.", "It seems like a stroke. Call emergency services right away.", "These symptoms suggest a stroke. Seek medical help immediately."]
+  },
+  {
+    "tag": "COVID-19",
+    "patterns": ["fever", "dry cough", "loss of taste", "loss of smell", "shortness of breath", "fatigue", "body aches"],
+    "responses": ["Your symptoms suggest COVID-19. Please get tested and isolate yourself.", "It seems like COVID-19. Consult a healthcare provider and follow safety protocols.", "These symptoms could indicate COVID-19. Please get tested and stay safe."]
+  },
+  {
+    "tag": "Tension Headache",
+    "patterns": ["dull head pain", "pressure around forehead", "tightness around head", "tenderness on scalp", "pain in neck and shoulders", "mild to moderate pain"],
+    "responses": ["It seems like you have a tension headache. Rest and hydration might help.", "Your symptoms suggest a tension headache. Consider relaxation techniques.", "It looks like a tension headache. Take a break and rest."]
+  },
+  {
+    "tag": "Chickenpox",
+    "patterns": ["itchy rash", "blister-like lesions", "fever", "fatigue", "loss of appetite", "headache"],
+    "responses": ["Your symptoms suggest chickenpox. Please consult a healthcare provider.", "It seems like chickenpox. Avoid scratching and see a doctor.", "These symptoms indicate chickenpox. Please seek medical advice."]
+  },
+  {
+    "tag": "Appendicitis",
+    "patterns": ["sharp abdominal pain", "pain near the navel", "nausea", "vomiting", "loss of appetite", "fever", "abdominal swelling"],
+    "responses": ["Your symptoms could indicate appendicitis. Please seek emergency medical care.", "It seems like appendicitis. Seek medical attention immediately.", "These symptoms suggest appendicitis. Consider going to the hospital."]
+  },
+  {
+    "tag": "Food Poisoning",
+    "patterns": ["nausea", "vomiting", "diarrhea", "abdominal pain", "fever", "weakness", "dehydration"],
+    "responses": ["It seems like food poisoning. Stay hydrated and rest.", "Your symptoms suggest food poisoning. Consider seeing a doctor if symptoms persist.", "These symptoms indicate food poisoning. Avoid solid foods and drink fluids."]
+  },
+  {
+    "tag": "Mononucleosis",
+    "patterns": ["sore throat", "swollen lymph nodes", "fever", "fatigue", "swollen tonsils", "headache", "skin rash"],
+    "responses": ["Your symptoms suggest mononucleosis. Please see a healthcare provider.", "It seems like mononucleosis. Rest and hydration are recommended.", "These symptoms could indicate mononucleosis. Please seek medical advice."]
+  },
+  {
+    "tag": "Chickenpox",
+    "patterns": ["itchy rash", "fever", "loss of appetite", "headache", "tiredness", "small fluid-filled blisters"],
+    "responses": ["Your symptoms suggest chickenpox. Consult a healthcare provider.", "It seems like chickenpox. Avoid scratching and seek medical advice.", "These symptoms indicate chickenpox. Please see a doctor."]
+  },
+  {
+    "tag": "Seasonal Allergies",
+    "patterns": ["itchy eyes", "runny nose", "sneezing", "congestion", "cough", "itchy throat", "watery eyes"],
+    "responses": ["It looks like you have seasonal allergies. Consider taking antihistamines.", "Your symptoms suggest allergies. Avoid known allergens and consult a healthcare provider if necessary.", "These symptoms indicate seasonal allergies. Try over-the-counter allergy medications."]
+  },
+  {
+    "tag": "Gastritis",
+    "patterns": ["upper abdominal pain", "nausea", "vomiting", "loss of appetite", "bloating", "burping", "burning sensation in the stomach"],
+    "responses": ["Your symptoms suggest gastritis. Avoid spicy foods and consult a healthcare provider.", "It seems like gastritis. Consider taking antacids and eating smaller meals.", "These symptoms could indicate gastritis. Please seek medical advice."]
+  },
+  {
+    "tag": "Chronic Fatigue Syndrome",
+    "patterns": ["extreme fatigue", "unrefreshing sleep", "difficulty concentrating", "joint pain", "muscle pain", "headaches", "sore throat"],
+    "responses": ["Your symptoms suggest chronic fatigue syndrome. Please consult a healthcare provider.", "It seems like chronic fatigue syndrome. Rest and gentle exercise might help.", "These symptoms indicate chronic fatigue syndrome. Professional help can be beneficial."]
+  },
+  {
+    "tag": "Sciatica",
+    "patterns": ["pain radiating down leg", "lower back pain", "numbness in leg", "tingling sensation in foot", "difficulty moving leg", "sharp pain in buttock"],
+    "responses": ["Your symptoms suggest sciatica. Consider seeing a physiotherapist.", "It seems like sciatica. Gentle stretches and rest might help.", "These symptoms indicate sciatica. Please seek medical advice for pain management."]
+  },
+  {
+    "tag": "Sleep Apnea",
+    "patterns": ["loud snoring", "gasping for air during sleep", "morning headache", "excessive daytime sleepiness", "difficulty concentrating", "irritability", "dry mouth"],
+    "responses": ["Your symptoms suggest sleep apnea. Please consult a sleep specialist.", "It seems like sleep apnea. Consider a sleep study for a proper diagnosis.", "These symptoms indicate sleep apnea. Medical intervention can improve your sleep quality."]
+  },
+  {
+    "tag": "Hypercholesterolemia",
+    "patterns": ["high cholesterol levels", "xanthomas", "chest pain", "shortness of breath", "fatigue", "leg pain when walking", "heart attack history"],
+    "responses": ["Your symptoms suggest high cholesterol. Please consult a healthcare provider.", "It seems like hypercholesterolemia. Lifestyle changes and medication can help.", "These symptoms indicate high cholesterol levels. A healthcare provider can guide you."]
+  },
+  {
+    "tag": "Hypoglycemia",
+    "patterns": ["shakiness", "sweating", "hunger", "confusion", "dizziness", "weakness", "blurred vision"],
+    "responses": ["Your symptoms suggest hypoglycemia. Please eat or drink something sugary and consult a healthcare provider.", "It seems like low blood sugar. Consider monitoring your levels and seeking advice.", "These symptoms indicate hypoglycemia. Immediate action is necessary."]
+  },
+  {
+    "tag": "Eczema",
+    "patterns": ["itchy skin", "red patches", "dry skin", "swelling", "skin cracking", "blisters", "scaly skin"],
+    "responses": ["Your symptoms suggest eczema. Consider moisturizing and consulting a dermatologist.", "It seems like eczema. Avoid triggers and use prescribed treatments.", "These symptoms indicate eczema. A healthcare provider can help manage flare-ups."]
+  },
+  {
+    "tag": "Psoriasis",
+    "patterns": ["red patches on skin", "scaly patches", "itching", "dry skin", "painful skin", "swollen joints", "stiff joints"],
+    "responses": ["Your symptoms suggest psoriasis. Please see a dermatologist.", "It seems like psoriasis. Consider using prescribed ointments and avoiding triggers.", "These symptoms indicate psoriasis. A healthcare provider can guide you with treatment."]
+  },
+  {
+    "tag": "Acid Reflux",
+    "patterns": ["heartburn", "regurgitation", "difficulty swallowing", "chest pain", "sore throat", "chronic cough", "bitter taste in mouth"],
+    "responses": ["Your symptoms suggest acid reflux. Avoid trigger foods and consider antacids.", "It seems like acid reflux. Lifestyle changes and medications can help.", "These symptoms indicate acid reflux. Please seek medical advice if symptoms persist."]
+  },
+  {
+    "tag": "Meningitis",
+    "patterns": ["severe headache", "stiff neck", "fever", "sensitivity to light", "nausea", "vomiting", "confusion"],
+    "responses": ["Your symptoms suggest meningitis. Please seek emergency medical care.", "It seems like meningitis. This is a medical emergency, call for help immediately.", "These symptoms indicate meningitis. Please go to the nearest hospital."]
+  },
+  {
+    "tag": "Multiple Sclerosis",
+    "patterns": ["numbness in limbs", "weakness", "loss of vision", "double vision", "tingling", "unsteady gait", "fatigue"],
+    "responses": ["Your symptoms suggest multiple sclerosis. Please consult a neurologist.", "It seems like multiple sclerosis. Early diagnosis and treatment are important.", "These symptoms indicate multiple sclerosis. A healthcare provider can help manage it."]
+  },
+  {
+    "tag": "Parkinson's Disease",
+    "patterns": ["tremors", "slowed movement", "rigid muscles", "impaired posture", "balance problems", "speech changes", "writing changes"],
+    "responses": ["Your symptoms suggest Parkinson’s disease. Please consult a neurologist.", "It seems like Parkinson’s disease. Early diagnosis and treatment are important.", "These symptoms indicate Parkinson’s disease. A healthcare provider can guide you."]
+  },
+  {
+    "tag": "Prostate Cancer",
+    "patterns": ["difficulty urinating", "weak urine flow", "blood in urine", "pain in pelvis", "bone pain", "erectile dysfunction", "unexplained weight loss"],
+    "responses": ["Your symptoms suggest prostate cancer. Please consult a healthcare provider.", "It seems like prostate cancer. Early detection and treatment are crucial.", "These symptoms indicate prostate cancer. A healthcare provider can guide you with the next steps."]
+  },
+  {
+    "tag": "Breast Cancer",
+    "patterns": ["lump in breast", "changes in breast shape", "nipple discharge", "breast pain", "swelling", "skin dimpling", "redness on breast"],
+    "responses": ["Your symptoms suggest breast cancer. Please consult a healthcare provider.", "It seems like breast cancer. Early detection and treatment are crucial.", "These symptoms indicate breast cancer. A healthcare provider can guide you with the next steps."]
+  },
+  {
+    "tag": "Celiac Disease",
+    "patterns": ["diarrhea", "bloating", "gas", "fatigue", "weight loss", "anemia", "itchy rash"],
+    "responses": ["Your symptoms suggest celiac disease. Please avoid gluten and consult a healthcare provider.", "It seems like celiac disease. A gluten-free diet can help manage symptoms.", "These symptoms indicate celiac disease. A healthcare provider can provide further guidance."]
+  },
+  {
+    "tag": "Rheumatoid Arthritis",
+    "patterns": ["joint pain", "joint swelling", "stiffness", "fatigue", "fever", "loss of appetite", "reduced range of motion"],
+    "responses": ["Your symptoms suggest rheumatoid arthritis. Please consult a rheumatologist.", "It seems like rheumatoid arthritis. Early diagnosis and treatment are important.", "These symptoms indicate rheumatoid arthritis. A healthcare provider can help manage this condition."]
+  },
+  {
+    "tag": "Lupus",
+    "patterns": ["joint pain", "skin rash", "fatigue", "fever", "swollen lymph nodes", "shortness of breath", "chest pain"],
+    "responses": ["Your symptoms suggest lupus. Please consult a healthcare provider.", "It seems like lupus. Early diagnosis and treatment are important.", "These symptoms indicate lupus. A healthcare provider can provide further guidance."]
+  },
+  {
+    "tag": "Conjunctivitis",
+    "patterns": ["red eyes", "itchy eyes", "watery eyes", "discharge from eyes", "crusty eyelids", "sensitivity to light"],
+    "responses": ["Your symptoms suggest conjunctivitis. Please avoid touching your eyes and see a doctor.", "It seems like conjunctivitis. Consider using prescribed eye drops.", "These symptoms indicate conjunctivitis. A healthcare provider can help with treatment."]
+  },
+  {
+    "tag": "Tonsillitis",
+    "patterns": ["sore throat", "difficulty swallowing", "red, swollen tonsils", "white patches on tonsils", "fever", "bad breath", "swollen lymph nodes"],
+    "responses": ["Your symptoms suggest tonsillitis. Rest and hydration are recommended.", "It seems like tonsillitis. Gargling with salt water might help.", "These symptoms indicate tonsillitis. Please consult a healthcare provider if symptoms persist."]
+  },
+  {
+    "tag": "Sinusitis",
+    "patterns": ["nasal congestion", "facial pain", "headache", "postnasal drip", "loss of smell", "sore throat", "cough"],
+    "responses": ["Your symptoms suggest sinusitis. Consider using nasal decongestants and consulting a healthcare provider.", "It seems like sinusitis. Rest and hydration are recommended.", "These symptoms indicate sinusitis. A healthcare provider can guide you on treatment options."]
+  },
+  {
+    "tag": "Tension Headache",
+    "patterns": ["dull head pain", "pressure around forehead", "tightness in neck", "scalp tenderness", "sensitivity to light", "sensitivity to sound"],
+    "responses": ["Your symptoms suggest a tension headache. Relaxation and over-the-counter pain relief might help.", "It seems like a tension headache. Consider reducing stress and using pain relievers.", "These symptoms indicate a tension headache. Rest and gentle exercises can be beneficial."]
+  },
+  {
+    "tag": "Carpal Tunnel Syndrome",
+    "patterns": ["numbness in fingers", "tingling in hand", "weakness in hand", "pain in wrist", "difficulty holding objects", "shock-like sensations"],
+    "responses": ["Your symptoms suggest carpal tunnel syndrome. Consider using wrist supports and consulting a healthcare provider.", "It seems like carpal tunnel syndrome. Rest and ergonomic adjustments can help.", "These symptoms indicate carpal tunnel syndrome. A healthcare provider can provide guidance on treatment."]
+  },
+  {
+    "tag": "Anemia",
+    "patterns": ["fatigue", "pale skin", "shortness of breath", "dizziness", "irregular heartbeat", "cold hands and feet", "headache"],
+    "responses": ["Your symptoms suggest anemia. Please consult a healthcare provider for proper diagnosis and treatment.", "It seems like anemia. Iron-rich foods and supplements might be necessary.", "These symptoms indicate anemia. A healthcare provider can guide you with the next steps."]
+  },
+  {
+    "tag": "Migraine",
+    "patterns": ["throbbing head pain", "sensitivity to light", "nausea", "vomiting", "visual disturbances", "aura", "pulsating headache"],
+    "responses": ["Your symptoms suggest a migraine. Consider resting in a dark, quiet room and using prescribed medication.", "It seems like a migraine. Avoid known triggers and seek medical advice for management.", "These symptoms indicate a migraine. A healthcare provider can help with treatment options."]
+  },
+  {
+    "tag": "Vertigo",
+    "patterns": ["dizziness", "spinning sensation", "balance problems", "nausea", "vomiting", "headache", "sweating"],
+    "responses": ["Your symptoms suggest vertigo. Rest and consulting a healthcare provider might help.", "It seems like vertigo. Avoid sudden movements and seek medical advice.", "These symptoms indicate vertigo. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Asthma",
+    "patterns": ["shortness of breath", "chest tightness", "wheezing", "coughing", "difficulty breathing", "rapid breathing", "coughing at night"],
+    "responses": ["Your symptoms suggest asthma. Please consult a healthcare provider for a proper diagnosis and treatment plan.", "It seems like asthma. Using an inhaler and avoiding triggers might help.", "These symptoms indicate asthma. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Hypothyroidism",
+    "patterns": ["fatigue", "weight gain", "cold intolerance", "dry skin", "constipation", "muscle weakness", "depression"],
+    "responses": ["Your symptoms suggest hypothyroidism. Please consult a healthcare provider for a proper diagnosis and treatment.", "It seems like hypothyroidism. Thyroid hormone replacement therapy might be necessary.", "These symptoms indicate hypothyroidism. A healthcare provider can guide you on treatment options."]
+  },
+  {
+    "tag": "Hyperthyroidism",
+    "patterns": ["weight loss", "rapid heartbeat", "nervousness", "sweating", "increased appetite", "tremors", "fatigue"],
+    "responses": ["Your symptoms suggest hyperthyroidism. Please consult a healthcare provider for a proper diagnosis and treatment.", "It seems like hyperthyroidism. Medications and lifestyle changes might be necessary.", "These symptoms indicate hyperthyroidism. A healthcare provider can guide you on treatment options."]
+  },
+  {
+    "tag": "Pneumonia",
+    "patterns": ["cough with phlegm", "fever", "chills", "shortness of breath", "chest pain", "fatigue", "nausea"],
+    "responses": ["Your symptoms suggest pneumonia. Please consult a healthcare provider immediately.", "It seems like pneumonia. Rest and medical treatment are recommended.", "These symptoms indicate pneumonia. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Chronic Bronchitis",
+    "patterns": ["persistent cough", "mucus production", "shortness of breath", "chest discomfort", "fatigue", "wheezing", "swelling in ankles"],
+    "responses": ["Your symptoms suggest chronic bronchitis. Please consult a healthcare provider.", "It seems like chronic bronchitis. Avoiding irritants and medical treatment are recommended.", "These symptoms indicate chronic bronchitis. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Heartburn",
+    "patterns": ["burning sensation in chest", "sour taste in mouth", "difficulty swallowing", "chest pain", "coughing", "hoarseness", "regurgitation"],
+    "responses": ["Your symptoms suggest heartburn. Avoid trigger foods and consider using antacids.", "It seems like heartburn. Lifestyle changes and medications can help.", "These symptoms indicate heartburn. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Peptic Ulcer",
+    "patterns": ["burning stomach pain", "bloating", "belching", "nausea", "loss of appetite", "weight loss", "vomiting blood"],
+    "responses": ["Your symptoms suggest a peptic ulcer. Please consult a healthcare provider for a proper diagnosis and treatment.", "It seems like a peptic ulcer. Avoiding irritants and medications can help.", "These symptoms indicate a peptic ulcer. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Pancreatitis",
+    "patterns": ["upper abdominal pain", "pain radiating to back", "fever", "nausea", "vomiting", "rapid pulse", "tender abdomen"],
+    "responses": ["Your symptoms suggest pancreatitis. Please seek immediate medical attention.", "It seems like pancreatitis. Rest and medical treatment are recommended.", "These symptoms indicate pancreatitis. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Endometriosis",
+    "patterns": ["pelvic pain", "painful periods", "pain during intercourse", "pain during bowel movements", "infertility", "fatigue", "bloating"],
+    "responses": ["Your symptoms suggest endometriosis. Please consult a healthcare provider.", "It seems like endometriosis. Pain management and treatment options are available.", "These symptoms indicate endometriosis. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Osteoarthritis",
+    "patterns": ["joint pain", "stiffness", "swelling", "loss of flexibility", "grating sensation", "bone spurs", "tenderness"],
+    "responses": ["Your symptoms suggest osteoarthritis. Please consult a healthcare provider.", "It seems like osteoarthritis. Exercise and medications can help manage symptoms.", "These symptoms indicate osteoarthritis. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Fibromyalgia",
+    "patterns": ["widespread pain", "fatigue", "sleep disturbances", "memory issues", "depression", "headaches", "irritable bowel syndrome"],
+    "responses": ["Your symptoms suggest fibromyalgia. Please consult a healthcare provider.", "It seems like fibromyalgia. Pain management and lifestyle changes can help.", "These symptoms indicate fibromyalgia. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Cystitis",
+    "patterns": ["painful urination", "frequent urination", "pelvic pain", "cloudy urine", "strong-smelling urine", "blood in urine", "discomfort in lower abdomen"],
+    "responses": ["Your symptoms suggest cystitis. Please consult a healthcare provider.", "It seems like cystitis. Drinking water and medical treatment can help.", "These symptoms indicate cystitis. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Irritable Bowel Syndrome",
+    "patterns": ["abdominal pain", "cramping", "bloating", "gas", "diarrhea", "constipation", "mucus in stool"],
+    "responses": ["Your symptoms suggest irritable bowel syndrome. Please consult a healthcare provider.", "It seems like irritable bowel syndrome. Dietary changes and medications can help.", "These symptoms indicate irritable bowel syndrome. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Inflammatory Bowel Disease",
+    "patterns": ["persistent diarrhea", "abdominal pain", "rectal bleeding", "weight loss", "fatigue", "fever", "reduced appetite"],
+    "responses": ["Your symptoms suggest inflammatory bowel disease. Please consult a healthcare provider.", "It seems like inflammatory bowel disease. Dietary changes and medications can help.", "These symptoms indicate inflammatory bowel disease. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "GERD (Gastroesophageal Reflux Disease)",
+    "patterns": ["heartburn", "regurgitation", "difficulty swallowing", "chronic cough", "hoarseness", "sore throat", "chest pain"],
+    "responses": ["Your symptoms suggest GERD. Avoid trigger foods and consult a healthcare provider.", "It seems like GERD. Medications and lifestyle changes may help.", "These symptoms indicate GERD. A healthcare provider can guide you on treatment options."]
+  },
+  {
+    "tag": "Gallstones",
+    "patterns": ["sudden severe abdominal pain", "pain between shoulder blades", "nausea after meals", "vomiting", "yellowing of skin or eyes", "clay-colored stools"],
+    "responses": ["Your symptoms suggest gallstones. Please seek medical attention.", "It seems like gallstones. A healthcare provider can guide you on treatment options.", "These symptoms indicate gallstones. Medical intervention may be necessary."]
+  },
+  {
+    "tag": "Diverticulitis",
+    "patterns": ["abdominal pain", "cramping", "fever", "nausea", "bloating", "constipation", "blood in stool"],
+    "responses": ["Your symptoms suggest diverticulitis. Please consult a healthcare provider.", "It seems like diverticulitis. Dietary changes and medical treatment might be necessary.", "These symptoms indicate diverticulitis. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Acute Bronchitis",
+    "patterns": ["persistent cough", "mucus production", "shortness of breath", "wheezing", "chest tightness", "sore throat", "fatigue"],
+    "responses": ["Your symptoms suggest acute bronchitis. Rest and hydration are recommended.", "It seems like acute bronchitis. A healthcare provider can suggest treatment options.", "These symptoms indicate acute bronchitis. Seek medical advice for appropriate care."]
+  },
+  {
+    "tag": "Chronic Fatigue Syndrome",
+    "patterns": ["extreme fatigue", "sleep disturbances", "muscle pain", "joint pain", "headaches", "sore throat", "swollen lymph nodes"],
+    "responses": ["Your symptoms suggest chronic fatigue syndrome. Please consult a healthcare provider.", "It seems like chronic fatigue syndrome. Rest and lifestyle changes may help.", "These symptoms indicate chronic fatigue syndrome. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Crohn's Disease",
+    "patterns": ["diarrhea", "abdominal pain", "weight loss", "fatigue", "fever", "blood in stool", "mouth sores"],
+    "responses": ["Your symptoms suggest Crohn's disease. Please consult a healthcare provider for a diagnosis and treatment plan.", "It seems like Crohn's disease. Medications and dietary changes may be necessary.", "These symptoms indicate Crohn's disease. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Cholecystitis",
+    "patterns": ["severe pain in upper right abdomen", "pain radiating to shoulder", "nausea", "vomiting", "fever", "jaundice", "abdominal tenderness"],
+    "responses": ["Your symptoms suggest cholecystitis. Please seek immediate medical attention.", "It seems like cholecystitis. Medical treatment may be necessary.", "These symptoms indicate cholecystitis. A healthcare provider can guide you on the next steps."]
+  },
+  {
+    "tag": "Eczema",
+    "patterns": ["itchy skin", "dry skin", "red rashes", "swelling", "skin crusting", "thickened skin", "fluid-filled bumps"],
+    "responses": ["Your symptoms suggest eczema. Moisturizers and avoiding irritants can help.", "It seems like eczema. A healthcare provider can suggest appropriate treatments.", "These symptoms indicate eczema. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Psoriasis",
+    "patterns": ["red patches of skin", "scales", "itching", "dry skin", "swollen joints", "thickened nails", "soreness"],
+    "responses": ["Your symptoms suggest psoriasis. Topical treatments and lifestyle changes might help.", "It seems like psoriasis. A healthcare provider can guide you on treatment options.", "These symptoms indicate psoriasis. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Menopause",
+    "patterns": ["hot flashes", "night sweats", "irregular periods", "mood swings", "vaginal dryness", "difficulty sleeping", "weight gain"],
+    "responses": ["Your symptoms suggest menopause. Lifestyle changes and medications can help manage symptoms.", "It seems like menopause. A healthcare provider can guide you on symptom management.", "These symptoms indicate menopause. Consult a healthcare provider for guidance."]
+  },
+  {
+    "tag": "Osteoporosis",
+    "patterns": ["back pain", "loss of height", "stooped posture", "bone fractures", "brittle bones", "weak bones", "bone pain"],
+    "responses": ["Your symptoms suggest osteoporosis. Please consult a healthcare provider.", "It seems like osteoporosis. Calcium and vitamin D supplementation may help.", "These symptoms indicate osteoporosis. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Gout",
+    "patterns": ["severe joint pain", "joint redness", "swelling", "joint warmth", "limited joint movement", "pain in big toe", "pain in other joints"],
+    "responses": ["Your symptoms suggest gout. Please consult a healthcare provider.", "It seems like gout. Dietary changes and medications may help.", "These symptoms indicate gout. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Lupus",
+    "patterns": ["joint pain", "skin rashes", "fatigue", "fever", "chest pain", "hair loss", "sensitivity to sunlight"],
+    "responses": ["Your symptoms suggest lupus. Please consult a healthcare provider.", "It seems like lupus. Medications and lifestyle changes may help.", "These symptoms indicate lupus. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Rheumatoid Arthritis",
+    "patterns": ["joint pain", "joint swelling", "stiffness", "fatigue", "fever", "weight loss", "joint redness"],
+    "responses": ["Your symptoms suggest rheumatoid arthritis. Please consult a healthcare provider.", "It seems like rheumatoid arthritis. Medications and physical therapy can help.", "These symptoms indicate rheumatoid arthritis. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Multiple Sclerosis",
+    "patterns": ["numbness in limbs", "vision problems", "muscle weakness", "fatigue", "difficulty walking", "dizziness", "speech difficulties"],
+    "responses": ["Your symptoms suggest multiple sclerosis. Please consult a healthcare provider.", "It seems like multiple sclerosis. Medications and therapy can help.", "These symptoms indicate multiple sclerosis. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Parkinson's Disease",
+    "patterns": ["tremors", "muscle stiffness", "slow movement", "impaired posture", "balance problems", "speech changes", "writing difficulties"],
+    "responses": ["Your symptoms suggest Parkinson's disease. Please consult a healthcare provider.", "It seems like Parkinson's disease. Medications and physical therapy may help.", "These symptoms indicate Parkinson's disease. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Hypoglycemia",
+    "patterns": ["shaking", "sweating", "hunger", "irritability", "confusion", "dizziness", "weakness"],
+    "responses": ["Your symptoms suggest hypoglycemia. Please consume something sugary and consult a healthcare provider.", "It seems like hypoglycemia. Monitoring blood sugar levels and dietary changes can help.", "These symptoms indicate hypoglycemia. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Hyperglycemia",
+    "patterns": ["frequent urination", "increased thirst", "blurred vision", "fatigue", "headache", "nausea", "dry mouth"],
+    "responses": ["Your symptoms suggest hyperglycemia. Please monitor your blood sugar and consult a healthcare provider.", "It seems like hyperglycemia. Medications and lifestyle changes can help.", "These symptoms indicate hyperglycemia. A healthcare provider can provide guidance on managing this condition."]
+  },
+  {
+    "tag": "Hypotension",
+    "patterns": ["dizziness", "fainting", "blurred vision", "nausea", "fatigue", "lack of concentration", "weakness"],
+    "responses": ["Your symptoms suggest hypotension. Staying hydrated and consulting a healthcare provider may help.", "It seems like hypotension. Dietary changes and medical guidance can help.", "These symptoms indicate hypotension. A healthcare provider can guide you on managing this condition."]
+  },
+  {
+    "tag": "Hypertension",
+    "patterns": ["headaches", "shortness of breath", "nosebleeds", "chest pain", "dizziness", "vision problems", "fatigue"],
+    "responses": ["Your symptoms suggest hypertension. Please consult a healthcare provider.", "It seems like hypertension. Medications and lifestyle changes can help.", "These symptoms indicate hypertension. A healthcare provider can provide guidance on managing this condition."]
+  },
+  
+  {
+    "tag": "Gastrointestinal Issues",
+   "patterns": [
+            "I've been feeling abdominal pain and there’s blood in my stool.",
+            "I always feel tired, and my muscles ache.",
+            "I’m experiencing nausea and bloating with stomach cramps.",
+            "My stomach aches, I feel bloated, and I’ve been constipated.",
+            "I’ve had diarrhea and stomach cramps for some time now."
+        ],
+   "responses": [
+            "It sounds like you might be experiencing gastrointestinal issues. Please consult a healthcare professional.",
+            "Based on your symptoms, it would be best to seek medical advice.",
+            "Your symptoms may indicate a gastrointestinal problem; please talk to your doctor."
+        ]
+    },
+    {
+     "tag": "Skin Conditions",
+     "patterns": [
+            "I’ve got rashes that are flaking and getting worse.",
+            "My skin has become thick and cracked, especially around my elbows.",
+            "There are rashes on my arms and legs that are really itchy."
+        ],
+     "responses": [
+            "Your symptoms may suggest a skin condition. I recommend seeing a dermatologist.",
+            "Flaking rashes can indicate various skin issues; please consult a healthcare professional.",
+            "It’s important to get a professional opinion for your skin symptoms."
+        ]
+    },
+    {
+        "tag": "Fatigue and Weakness",
+        "patterns": [
+            "I feel constantly fatigued, and my muscles are sore.",
+            "I wake up feeling exhausted, and my entire body feels achy.",
+            "I’m always feeling exhausted, and my muscles are in constant pain.",
+            "I feel weak, losing weight, and having persistent diarrhea."
+        ],
+        "responses": [
+            "Chronic fatigue and weakness can be caused by many factors; it's best to consult your doctor.",
+            "I recommend seeking medical advice for persistent fatigue and weakness.",
+            "Your symptoms suggest you may need a thorough medical evaluation."
+        ]
+    },
+    {
+        "tag": "Respiratory Issues",
+        "patterns": [
+            "I have a fever and chills along with a persistent cough.",
+            "I’m feeling pressure in my lower abdomen, and urinating is painful.",
+            "I’ve been wheezing, and it feels like I can’t get enough air."
+        ],
+        "responses": [
+            "It seems like you may have respiratory issues; please see a healthcare professional.",
+            "Persistent cough and wheezing should be evaluated by a doctor.",
+            "Your symptoms could indicate a respiratory condition; seek medical attention."
+        ]
+    },
+    {
+        "tag": "Neurological Symptoms",
+        "patterns": [
+            "One side of my face feels numb, and I’ve been feeling weak on one side of my body.",
+            "My vision is blurry, and my arm feels weak all of a sudden.",
+            "I feel numbness and tingling in my arms, and I’m having coordination issues."
+        ],
+        "responses": [
+            "Numbness and weakness can be serious; it's important to seek medical help immediately.",
+            "These neurological symptoms should not be ignored. Please consult a healthcare provider.",
+            "Your symptoms may require immediate evaluation; please contact a doctor."
+        ]
+    }
+]
+}
